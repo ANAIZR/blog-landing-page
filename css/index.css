@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-ubuntu {
+    font-family: "Ubuntu";
+
+}
+
+.font-overpass {
+    font-family: 'Overpass';
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat !important;
+}
+
+.bg-position {
+    background-position: center !important;
+}
+
+.bg-size {
+    background-size: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.introduction {
+    background-color: hsl(13, 100%, 72%);
+    background-image: url("../assets/images/bg-pattern-intro-mobile.svg");
+    border-bottom-left-radius: 85px;
+    text-align: center;
+    height: 75vh;
+}
+
+nav {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.section-blogr {
+    margin-top: 35px;
+    padding: 10px;
+}
+
+.title {
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+.subtitle {
+    font-size: 9px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: lighter;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.botones {
+    
+    padding: 10px;
+    width: 40vh;
+    gap: 8px;
+    font-size: 6px;
+    margin-inline: auto;
+    margin-top: 25px;
+}
+
+.boton-start {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: hsl(355, 100%, 74%);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.boton-learn {
+    border-radius: 20px;
+    border: solid white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background: transparent;
+}
+
+.section-designed {
+    margin-top: 45px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.bg-img-editor-mobile {
+    background: url("../assets/images/illustration-editor-mobile.svg");
+    height: 50vh;
+    width: 100vw;
+    margin-top: 45px;
+    background-size: contain;
+}
+
+section>h2 {
+    font-family: "Overpass";
+    font-size: 28px;
+    text-align: center;
+    color: hsl(208, 49%, 24%);
+
+}
+
+section h2~p {
+    font-size: 16px;
+    text-align: center;
+    font-family: "ubuntu";
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: hsl(207, 13%, 34%);
+}
+
+.margin-h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.bg-celulares {
+    background: url("../assets/images/illustration-phones.svg");
+    height: 80vh;
+    background-size: contain;
+    border: solid;
+
+
+}
+
+.bg-redondo {
+    background: url(../assets/images/bg-pattern-circles.svg);
+    height: 50vh;
+    background-size: contain;
+    position: relative;
+    bottom: 80px;
+    border: solid;
+
+}
+
+.bg-computer {
+    background: url("../assets/images/illustration-laptop-mobile.svg");
+    height: 50vh;
+    background-size: contain;
+}
+.description{
+    padding: 15px;
+}
+.footer {
+    margin-top: 45px;
+    text-align: center;
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 45px;
+    padding: 35px;
+}
+
+.title-footer {
+    color: hsl(0, 0%, 100%)
+}
+
+div h4 {
+    margin-top: 25px;
+    color: hsl(0, 0%, 100%);
+    font-family: "Ubuntu";
+}
+div h4 ~p{
+    margin-top: 10px;
+    color: hsl(240, 2%, 79%);
+}
