@@ -6,7 +6,6 @@
 
 .font-ubuntu {
     font-family: "Ubuntu";
-
 }
 
 .font-overpass {
@@ -16,14 +15,10 @@
 .bg-no-repeat {
     background-repeat: no-repeat !important;
 }
-
-.bg-position {
+.bg-position{
     background-position: center !important;
 }
 
-.bg-size {
-    background-size: auto;
-}
 
 .flex {
     display: flex;
@@ -33,17 +28,30 @@
     text-align: center;
 }
 
-.introduction {
-    background-color: hsl(13, 100%, 72%);
-    background-image: url("../assets/images/bg-pattern-intro-mobile.svg");
-    border-bottom-left-radius: 85px;
+.container-introduction {
+    background-color: hsl(355, 100%, 74%);
+    background: linear-gradient(hsl(353, 100%, 62%), hsl(13, 100%, 72%));
     text-align: center;
-    height: 75vh;
+    height: 85vh;
+    border-bottom-left-radius: 25%;
+    position: relative;
+    overflow: hidden;
 }
 
-nav {
+.introduction {
+    background-image: url("../assets/images/bg-pattern-intro-mobile.svg");
+    height: 100%;
+    position: absolute;
+    background-position: center !important;
+}
+
+.nav-mobile {
     justify-content: space-between;
     padding: 20px;
+}
+
+.nav-desktop {
+    display: none;
 }
 
 .section-blogr {
@@ -53,32 +61,30 @@ nav {
 
 .title {
     font-size: 18px;
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-weight: bolder;
     margin-top: 25px;
 }
 
 .subtitle {
-    font-size: 9px;
+    font-size: 15px;
     word-spacing: 2px;
     letter-spacing: 2px;
-    color: white;
-    font-weight: lighter;
+    color: hsl(0, 0%, 100%);
     padding: 5px;
     margin-top: 25px;
 }
 
 .botones {
-    
     padding: 10px;
-    width: 40vh;
+    width: 50vh;
     gap: 8px;
     font-size: 6px;
     margin-inline: auto;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
-.boton-start {
+.boton-bg-white {
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
@@ -115,7 +121,7 @@ nav {
     background-size: contain;
 }
 
-section>h2 {
+.title-h2 {
     font-family: "Overpass";
     font-size: 28px;
     text-align: center;
@@ -123,7 +129,7 @@ section>h2 {
 
 }
 
-section h2~p {
+.text-description {
     font-size: 16px;
     text-align: center;
     font-family: "ubuntu";
@@ -136,34 +142,84 @@ section h2~p {
     margin-top: 25px;
     margin-bottom: 15px;
 }
-
+.section-celulares{
+    position: relative;
+    margin-top: 30vh;
+}
 .bg-celulares {
     background: url("../assets/images/illustration-phones.svg");
     height: 80vh;
     background-size: contain;
-    border: solid;
-
-
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: -180px;
+    
 }
 
-.bg-redondo {
-    background: url(../assets/images/bg-pattern-circles.svg);
-    height: 50vh;
-    background-size: contain;
-    position: relative;
-    bottom: 80px;
-    border: solid;
+.container-bg-redondo {
+    height: 80vh;
+    position: relative;  
+    background-color: hsl(230, 22%, 39%);
+    border-top-right-radius: 95px;
+    border-bottom-left-radius: 95px;
+    overflow: hidden;
+    
+}
 
+.img-bg-redondo {
+    background: url("../assets/images/bg-pattern-circles.svg");
+    background-size: cover;
+    height: 90vh;
+    top: -60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-position: center;
+}
+
+.description-state {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+.state-format {
+    color: hsl(0, 0%, 100%);
+    font-family: "Ubuntu";
+    line-height: 25px;
+    text-align: center;
+    font-family: "ubuntu";
+}
+
+.h2-state {
+    font-size: 35px;
+}
+
+.p-state {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.computer {
+    margin-top: 15vh;
+   
+   
 }
 
 .bg-computer {
     background: url("../assets/images/illustration-laptop-mobile.svg");
     height: 50vh;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
 }
-.description{
+
+.description {
     padding: 15px;
+    color: hsl(0, 0%, 100%);
 }
+
 .footer {
     margin-top: 45px;
     text-align: center;
@@ -181,7 +237,8 @@ div h4 {
     color: hsl(0, 0%, 100%);
     font-family: "Ubuntu";
 }
-div h4 ~p{
+
+div h4~p {
     margin-top: 10px;
     color: hsl(240, 2%, 79%);
 }

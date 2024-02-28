@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogr landing page</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/xl.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
@@ -18,88 +19,144 @@
 </head>
 
 <body>
-    <div class="introduction  bg-no-repeat bg-position bg-size ">
-        <nav class="flex">
-            <div>
-                <img src="./assets/images/logo.svg">
-            </div>
-            <div>
+    <div class="container-introduction">
+
+        <div class="introduction  bg-no-repeat   ">
+            <nav class="nav-mobile flex">
                 <div>
-                    <img src="./assets/images/icon-hamburger.svg">
+                    <img src="./assets/images/logo.svg">
                 </div>
-            </div>
-        </nav>
-        <section class="section-blogr ">
-            <div class="title font-overpass">
-                <h1>
-                    A modern publishing platform
-                </h1>
-            </div>
-            <div class="subtitle font-ubuntu">
-                <h2>Grow your audience and build your online brand</h2>
-            </div>
-            <div class="botones flex ">
-                <button class="boton-start font-ubuntu">Start for Free</button>
-                <button class="boton-learn font-ubuntu">Learn More</button>
-            </div>
-        </section>
+                <div>
+                    <div>
+                        <img src="./assets/images/icon-hamburger.svg">
+                    </div>
+                </div>
+            </nav>
+            <nav class="nav-desktop flex">
+                <div>
+                    <img src="./assets/images/logo.svg">
+                </div>
+                <div class="contein-items-nav">
+                    <div class="contein-list-item">
+                        <ul class="list-items-nav">
+                            <li>Product <span><img src="./assets/images/icon-arrow-light.svg"></span></li>
+                            <li>Company <span><img src="./assets/images/icon-arrow-light.svg"></span></li>
+                            <li>Connect <span><img src="./assets/images/icon-arrow-light.svg"></span></li>
+                        </ul>
+                    </div>
+                    <div class="contein-botones flex">
+                        <button class="button-login font-ubuntu">Login</button>
+                        <button class="boton-bg-white">Sign Up</button>
+                    </div>
+                </div>
+            </nav>
+            <section class="section-blogr font-ubuntu">
+                <div>
+                    <h1 class="title ">
+                        A modern publishing platform
+                    </h1>
+                </div>
+                <div>
+                    <p class="subtitle ">Grow your audience and build your online brand</p>
+                </div>
+                <div class="botones flex ">
+                    <button class="boton-bg-white ">Start for Free</button>
+                    <button class="boton-learn ">Learn More</button>
+                </div>
+            </section>
+        </div>
+
+
     </div>
 
     <section class="section-designed flex">
-        <h2 class="font-ubuntu">Designed for the future</h2>
-        <div class="bg-img-editor-mobile bg-no-repeat bg-position ">
-
-        </div>
-    </section>
-
-    <section class="description ">
-        <h2 class="margin-h2">Introducing an extensible editor</h2>
-        <p>
-            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
-            The editor supports manaagement of multile blogs and allows easy manipulation of embeds such as images,
-            videos, and Markdown.
-            Extensibility with plugins and themes provide easy ways to add funcionality or change the looks of a blog.
-        </p>
-    </section>
-    <section class="description">
-        <h2 class="margin-h2">Robust content management</h2>
-        <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog
-            by adding ustomized categories, sections, format, or flow. With this functionality, you're in full control.
-        </p>
-    </section>
-    <section>
-        <div class="bg-celulares  bg-no-repeat bg-position">
-            <div class="bg-redondo  bg-no-repeat bg-position">
+        <h2 class="font-ubuntu title-h2">Designed for the future</h2>
+        <div class="container-img-text">
+            <div class="bg-img-editor-mobile bg-no-repeat bg-position ">
 
             </div>
+            <div class="bg-img-editor-desktop bg-no-repeat bg-position ">
+
+            </div>
+
+            <div class="container-text">
+                <div class="description ">
+                    <h2 class="margin-h2 title-h2 text-left">Introducing an extensible editor</h2>
+                    <p class="text-description text-left">
+                        Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating
+                        content.
+                        The editor supports manaagement of multile blogs and allows easy manipulation of embeds such as
+                        images,
+                        videos, and Markdown.
+                        Extensibility with plugins and themes provide easy ways to add funcionality or change the looks
+                        of a blog.
+                    </p>
+                </div>
+                <div class="description">
+                    <h2 class="margin-h2 title-h2 text-left">Robust content management</h2>
+                    <p class="text-description text-left">Flexible content management enables users to easily move
+                        through posts.
+                        Increase the
+                        usability of your blog
+                        by adding ustomized categories, sections, format, or flow. With this functionality, you're in
+                        full control.
+                    </p>
+                </div>
+            </div>
         </div>
-       
+
     </section>
-    <section class="description">
-        <h2 class="margin-h2">State of the Art Infraestructure</h2>
-        <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
-            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-        </p>
+
+
+    <section class="section-celulares" >
+
+        <div class="bg-celulares  bg-no-repeat bg-position">
+
+        </div>
+        <div class="container-bg-redondo ">
+            <div class="img-bg-redondo bg-no-repeat">
+            </div>
+            <div class="description-state">
+                <h2 class="margin-h2 h2-state state-format">State of the Art Infraestructure</h2>
+                <p class="p-state state-format">With reliability and speed in mind, worldwide data centers provide
+                    the
+                    backbone for
+                    ultra-fast connectivity.
+                    This ensures your site will load instantly, no matter where your readers are, keeping your site
+                    competitive.
+                </p>
+            </div>
+        </div>
+
     </section>
-    <section>
+
+    <section class="computer">
         <div class="bg-computer bg-no-repeat bg-position">
 
         </div>
+        <div class="container-description">
+            <div class="description">
+                <h2 class="margin-h2 title-h2 left-align">Free, open, simple</h2>
+                <p class="text-description left-align">Blogr is a free and open source application backed by a large community of helpful
+                    developers. It supports
+                    features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+                    tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to
+                    learn.</p>
+            </div>
+            <div class="description ">
+                <h2 class="margin-h2 title-h2 left-align">Powerful tooling</h2>
+                <p class="text-description left-align">Batteries included. We built a simple and straightforward CLI tool that makes
+                    customization and deployment a
+                    breeze, but capable of producing even the most complicated sites.</p>
+            </div>
+        </div>
+        
     </section>
-    <section class="description">
-        <h2 class="margin-h2">Free, open, simple</h2>
-        <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports
-            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
-            tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to
-            learn.</p>
-    </section>
-    <section class="description">
-        <h2 class="margin-h2">Powerful tooling</h2>
-        <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a
-            breeze, but capable of producing even the most complicated sites.</p>
-    </section>
+    
     <footer class="footer">
-        <h2 class="title-footer font-overpass">Blogr</h2>
+        <div>
+            <h2 class="title-footer font-overpass">Blogr</h2>
+        </div>
         <div>
             <h4>Product</h4>
             <p>Overview</p>
