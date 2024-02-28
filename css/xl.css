@@ -1,0 +1,172 @@
+@media (min-width:1240px) {
+    .container-introduction {
+        height: 60vh;
+    }
+
+    .introduction {
+        background: url("../assets/images/bg-pattern-intro-desktop.svg");
+        background-size: auto;
+        width: 100%;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .nav-desktop {
+        justify-content: space-between;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contein-items-nav {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .contein-list-item {
+        width: 30%;
+        font-family: "ubuntu";
+    }
+
+    .list-items-nav {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contein-botones {
+        width: 20%;
+        padding: 2px;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+
+    .button-login {
+        border: none;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: hsl(0, 0%, 100%);
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .section-designed {
+        margin-top: 15vh;
+    }
+
+    .container-img-text {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: auto;
+        width: 100%;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    .bg-img-editor-mobile {
+        display: none;
+    }
+
+
+    .bg-img-editor-desktop {
+        background: url("../assets/images/illustration-editor-desktop.svg");
+        background-size: cover;
+        height: 40vh;
+        width: 100%;
+    }
+
+    .section-celulares {
+        position: relative;
+        height: 40vh;
+        display: flex;
+        border-top-right-radius: 95px;
+        border-bottom-left-radius: 95px;
+    }
+
+    .bg-celulares {
+        width: 50%;
+        position: absolute;
+
+    }
+
+    .container-bg-redondo {
+        height: 60vh;
+        width: 100%;
+        position: absolute;
+
+
+    }
+
+    .img-bg-redondo {
+        background-size: cover;
+        width: 60%;
+    }
+
+    .description-state {
+        width: 45%;
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .h2-state {
+        text-align: left;
+    }
+
+    .p-state {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .computer {
+        margin-top: 40vh;
+        display: flex;
+        height: 70vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bg-computer {
+        background: url("../assets/images/illustration-laptop-desktop.svg");
+        background-size: cover;
+        position: relative;
+        width: 40%;
+        height: 70vh;
+        left: -180px;
+    }
+
+    .container-description {
+        display: flex;
+        position: relative;
+        width: 50%;
+        right: 0;
+        flex-direction: column;
+     
+    }
+
+    .left-align {
+        text-align: left;
+    }
+    .footer{
+        display: flex;
+        border-top-right-radius: 55px;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+}
